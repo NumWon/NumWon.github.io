@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang=en>
     <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+        <meta name=author content="Naumaan Sheikh"/>
+        <meta name=keywords content="Naumaan Sheikh"/>
+        
+        
         <title>Naumaan Sheikh's Website</title>
     </head>
     <body>
@@ -9,13 +15,15 @@
             <h4>Computer Engineering Student</h4>
         </div>
         <header>
-            <ul class=nav-bar>
-                <li><a href=#about>About</a></li>
-                <li><a href=#projects>Projects</a></li>
-                <li><a href=#contact>Contact</a></li>
-                <li><a>Resume</a></li>
+            <nav class="navbar" role="navigation">
+                <ul class="navlist" data-sticky-wrap=true data-sticky-class=stuck>
+                    <li><a href=#about>About</a></li>
+                    <li><a href=#projects>Projects</a></li>
+                    <li><a href=#contact>Contact</a></li>
+                    <li><a>Resume</a></li>
                 <ul>
-                </header>
+            </nav>
+        </header>
         <div id = "about">
             <h3>About Me</h3>
             <p>I am a Computer Engineering student at the University of Waterloo, class of 2025. I have a keen interest in software development as well as embedded systems and hope to continue expanding my knowledge and experience in these fields.<br> Apart from my career, I enjoy playing video games, sports and have taken on chess in the last few years.<br><br>Languages: C++, Java, Swift, Python, HTML, CSS, Assembly<br><br>Tools: Git, Linux, Arduino, AutoCAD, Unity3D</p>
@@ -39,8 +47,28 @@
             </div>
         </div>
         <footer>
-            <div id="contact">
+            <div class="contact-flex">
                 <h3>Contact</h3>
+                <div class="contact-list">
+                    <div class="contact-list-item">
+                        <div class="contact-img">
+                            <img src="" alt="">
+                        </div>
+                        <p>naumaansheikh02@gmail.com</p>
+                    </div>
+                    <div class="contact-list-item">
+                        <div class="contact-img">
+                            <img src="" alt="">
+                        </div>
+                        <p>+1 647 772 1412</p>
+                    </div>
+                    <div class="contact-list-item">
+                        <div class="contact-img">
+                            <img src="" alt="" url="">
+                        </div>
+                        <a href="linkedin.com/in/naumaansheikh">Naumaan Sheikh</a>
+                    </div>
+                </div>
             </div>
         </footer>
     </body>

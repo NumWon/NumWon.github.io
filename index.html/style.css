@@ -1,0 +1,20 @@
+body {
+    line-height: 1;
+}
+
+header {
+    min-height: 95vh;
+    margin-bottom: 20rem;
+    background: #212121;
+}
+
+.nav-bar {
+    display: flex !important;
+    flex-basis: auto;
+}
+
+.contact-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
