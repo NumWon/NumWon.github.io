@@ -5,12 +5,25 @@ body {
 header {
     min-height: 95vh;
     margin-bottom: 20rem;
+}
+
+.navbar {
+    display: flex !important;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    row-gap: 20px;
     background: #212121;
 }
 
-.nav-bar {
-    display: flex !important;
-    flex-basis: auto;
+.navlist {
+    font-size: 18px;
+    font-family: Consolas;
+    font-weight: bold;
+    color: white;
+    opacity: 0.6;
 }
 
 .contact-flex {
