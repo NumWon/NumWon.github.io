@@ -1,11 +1,24 @@
 body {
     line-height: 1;
-    background: #111 !important;
+    background: #222 !important;
     color: #ddd;
 }
 
-.intro {
-    background-image: url("intro_bkg.jpg");
+.subheading {
+    font-family: Caveat;
+    font-size: 35px;
+    color: #fda;
+}
+
+/* When click nav-bar links, keeps some space from top */
+#about, #projects, #contact {
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+img{
+    width: 100%;
+    height: auto;
 }
 
 .nav-bar {
@@ -41,8 +54,12 @@ body {
 }
 
 .nav-link {
-    color: #fff !important;
+    color: #fff;
     text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #2aa;
 }
 
 .languages {
@@ -50,23 +67,42 @@ body {
 }
 
 .intro {
+    height: 600px;
+    max-width: 2000px;
+    overflow: hidden;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-top: 6%;
+    margin-top: 7%;
+    background-image: url("background2.jpg");
+    background-size: 100% 100%;
 }
 
 .title {
-    font-family: Tahoma;
+    margin-top: 7rem;
+    font-family: "Alfa Slab One";
 }
 
 .name {
     font-size: 90px;
+    text-shadow: 3px 3px 3px #003;
 }
 
 .role {
-    font-size: 40px;
+    font-size: 24px;
+}
+
+.about {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    width: 200px;
+    height: 500px;
 }
 
 .contact-flex {
