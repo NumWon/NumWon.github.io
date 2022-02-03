@@ -1,4 +1,5 @@
 body {
+    display: block;
     line-height: 1;
     background: #222 !important;
     color: #ddd;
@@ -8,6 +9,7 @@ body {
     font-family: Caveat;
     font-size: 35px;
     color: #fda;
+    text-align: center;
 }
 
 /* When click nav-bar links, keeps some space from top */
@@ -94,15 +96,18 @@ img{
 }
 
 .about {
+    margin-left: 20%;
     display: flex;
-    flex-basis: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
-    width: 200px;
-    height: 500px;
+    max-width: 60%;
+}
+
+.about_item {
+    padding-right: 40px;
+    Padding-bottom: 40px;
+    overflow: hidden;
 }
 
 .contact-flex {
