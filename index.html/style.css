@@ -157,6 +157,7 @@ img{
 .projects {
     margin-right: 7em;
     margin-left: 7em;
+    margin-bottom: 7em;
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -167,7 +168,12 @@ img{
     padding-left: 15px;
     border: 2px solid;
     border-radius: 25px;
-    Width: 25%
+    width: 25%
+}
+
+.project_items:hover {
+    background-color: #333537;
+    color: #eee;
 }
 
 .project_logo {
@@ -179,18 +185,37 @@ img{
 
 .ios {
     border-color: #0af;
+    box-shadow: 3px 3px 10px #0af;
+    background-color: #151515
 }
 
 .web {
     border-color: #0fa;
+    box-shadow: 3px 3px 10px #0fa;
+    background-color: #151515
 }
 
 .cpp {
-    border-color: #af0;
+    border-color: #fa0;
+    box-shadow: 3px 3px 10px #fa0;
+    background-color: #151515
 }
 
-.contact-flex {
+.contact{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+}
+
+.contact-list-item {
+    display: flex;
+    Justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.contact-img {
+    max-width: 30px;
+    height: auto;
 }
